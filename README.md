@@ -7,103 +7,100 @@ All 3 data science tasks from Oasis Infobyte : Iris, Unemployment, Car price
 *Program*: OIBSIP Data Science Internship
 *Duration*: July 2025
 *Tasks Completed*: Task-1, Task-2, Task-3
+:
+
+# 🌟 OIBSIP Data Science Internship Tasks
+
+This repository contains all three tasks completed during the *Oasis Infobyte Data Science Internship*. Each task demonstrates skills in data analysis, visualization, and machine learning.
 
 ---
 
-### ✅ *Task 1: Iris Flower Classification (ML)*
+## 📘 Task 1: Iris Flower Classification
 
 *Objective:*
-Build a classification model to identify the species of an iris flower based on sepal and petal length/width.
+To classify Iris flowers into different species (Setosa, Versicolor, Virginica) based on their petal and sepal measurements.
 
-*Dataset:*
-Iris dataset (iris.csv)
+*Steps Performed:*
 
-*Steps:*
+* Loaded the dataset using pandas.
+* Explored data with basic statistics and visualizations.
+* Trained a classification model using Logistic Regression.
+* Evaluated performance using accuracy and classification report.
+* Visualized patterns using pair plots and heatmaps.
 
-* Data Loading and Exploration
-* Visualization using Seaborn (pairplot, heatmap)
-* Label Encoding of Species
-* Train-Test Split
-* Model Training using Logistic Regression
-* Evaluation using Accuracy and Classification Report
+*Tools Used:*
 
-*Libraries Used:*
-pandas, numpy, matplotlib, seaborn, sklearn
+* Python
+* Pandas, Seaborn, Matplotlib
+* Scikit-learn
 
-*Output:*
-
-* Achieved *100% accuracy* on test data.
-* Visualizations plotted to show feature relationships.
-
-📁 File: task1_iris_flower_classification.ipynb
+*Outcome:*
+Built a model with high accuracy (close to 100%) that can successfully classify Iris flowers into their correct species.
 
 ---
 
-### ✅ *Task 2: Unemployment Analysis with Python*
+## 📗 Task 2: Unemployment Analysis in India
 
 *Objective:*
-Analyze and visualize India’s unemployment rates by state, region, and time.
+To analyze the unemployment rate in India based on state, region, and date using the provided dataset.
 
-*Dataset:*
-Unemployment in India (Unemployment_Rate_upto_11_2020.csv)
+*Steps Performed:*
 
-*Steps:*
+* Loaded and cleaned the dataset.
+* Converted date column to datetime format.
+* Performed exploratory data analysis (EDA).
+* Visualized unemployment patterns with bar charts, line plots, and heatmaps.
 
-* Data Cleaning and Null Check
-* Exploratory Data Analysis
-* Region-wise and Date-wise Plots
-* Heatmaps and Histograms
+*Tools Used:*
 
-*Libraries Used:*
-pandas, numpy, seaborn, matplotlib
+* Python
+* Pandas, Seaborn, Matplotlib
 
-*Visualizations:*
-
-* Unemployment trends by Region
-* Bar plots and heatmaps for easier understanding
-* Temporal unemployment mapping
-
-📁 File: task2_unemployment_analysis.ipynb
+*Outcome:*
+Identified trends of unemployment in different regions and states. Gained insights into how unemployment varied over time.
 
 ---
 
-### ✅ *Task 3: Car Price Prediction using Machine Learning*
+## 📕 Task 3: Car Price Prediction
 
 *Objective:*
-Build a regression model to predict the price of a car using various features like horsepower, engine size, etc.
+To predict the selling price of used cars based on factors like year, fuel type, seller type, etc.
 
-*Dataset:*
-Car Price Dataset (CarPrice.csv or similar)
+*Steps Performed:*
 
-*Steps:*
+* Loaded and cleaned the car dataset.
+* Encoded categorical data using LabelEncoder.
+* Applied Linear Regression model to train the data.
+* Evaluated the model using R² score and visualizations.
 
-* Data Cleaning & Feature Selection
-* One-hot encoding of categorical variables
-* Train-Test Split
-* Linear Regression Model Training
-* Evaluation using R² Score and MSE
-* Plotting Actual vs Predicted Prices
+*Tools Used:*
 
-*Libraries Used:*
-pandas, numpy, matplotlib, seaborn, sklearn
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
 
-*Output:*
-
-* Trained model with high R² accuracy
-* Clean and insightful price prediction graph
-
-📁 File: task3_car_price_prediction.ipynb
+*Outcome:*
+Created a predictive model that estimates used car prices accurately based on given input features.
 
 ---
 
-### 📝 *How to Run These Notebooks*
+## 🔧 General Tools & Platforms Used
 
-1. Open the notebooks in [Google Colab](https://colab.research.google.com/)
-2. Upload the respective CSV file when prompted
-3. Run all cells in order
+* Google Colab / Jupyter Notebook
+* Python Libraries: Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-### 🔗 GitHub Repository
+## ✅ Internship Summary
 
-📌 [View All Tasks on GitHub »](https://github.com/rahulgajabe/oibsip_datascience_task-1-2-3) (
+This internship project helped in understanding the end-to-end data science workflow — from data preprocessing to building models and evaluating them. It improved my hands-on experience in data analysis, visualization, and applying machine learning models to real datasets.
+
+---
+
+
+
+
+
+
+
